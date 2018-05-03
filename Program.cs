@@ -23,11 +23,11 @@ namespace carClass2
 
             Console.WriteLine();
 
-            var car1 = new Car(); 
-            car1.Make = make; 
-            car1.Color = color; 
-            car1.Gearbox = gearbox; 
-            Console.WriteLine(car1.DescribeCar()); 
+            var car = new Car(); 
+            car.Make = make; 
+            car.Color = color; 
+            car.Gearbox = gearbox; 
+            Console.WriteLine(car.DescribeCar()); 
 
             Console.WriteLine("Press any key to exit");
             Console.ReadKey();
